@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'studentDataApp';
+  pageNo: any;
+  buttonclicked(index: any){
+    console.log("index");
+    this.pageNo = index;
+}
 }
